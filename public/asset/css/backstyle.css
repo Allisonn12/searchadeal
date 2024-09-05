@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+}
+.banner{
+    background: #6ec1e4;
+    /* background: #000000; */
+    /* background:#6EC1E4; */
+    /* color: #fff;
+    text-align: center;
+    height: auto; */
+}
+.banner-text{
+    /* height: 291px;
+    display: block; */
+}
+.banner-text h1{
+    font-size: 70px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: normal; */
+}
+/* .banner-text p{
+    font-size: 50px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1;
+} */
+
+@media screen and (max-width:767px){
+    /*.banner-text{
+        height: auto;
+        text-align: center;
+    } */
+    .banner-text h1{
+        font-size: 36px;
+    }
+    .hlabi-form{
+        margin: 0 20px;
+    }
+}

@@ -1,0 +1,14 @@
+DEBT has a problem when using OFFER_ID(2708), Works with (2525):
+array:6 [▼ // app/Http/Controllers/Debt/DebtController.php:41
+  "response" => "Offer_Id is not an expected value"
+  "timestamp" => "2024-09-01T18:43:34Z"
+  "code" => -5
+  "info" => []
+  "leadId" => null
+  "processTime" => 0.07
+  }
+-------------------------------------------------------------------------------
+CAR INSURANCE is missing parameters (leadsource, affiliateshortcode)
+
+
+
