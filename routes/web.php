@@ -15,7 +15,7 @@ use App\Http\Controllers\Life\lifeController;
 
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
 
 Route::get('/contact', function () {
